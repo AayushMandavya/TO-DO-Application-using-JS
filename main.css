@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background: darkslategrey; 
+
+    }
+  
+  button {
+    height: 5vh;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #c9d1c8;
+  }
+  
+  .todo{
+    width: 600px;
+    margin: auto;
+    padding-top: 50px;
+    color: white;
+  }
+  
+  .input-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  .to-do-input input {
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    margin-left:-20px;
+  }
+  
+  .to-do-input button {
+    border: none;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+   
+  }
+  
+  .to-do-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  
+  .to-do-list button {
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #04202c;
+    border-radius: 5px;
+    padding: 8px;
+    box-shadow: 0px 2px 4px 0px black;
+  }
+  
+  .input-controller {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-controller textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    resize: none;
+    color: white;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    transition: all 0.30s ease-in-out;
+  }
+  
+  textarea:focus {
+    box-shadow: 0 0 5px white;
+  }
+  
+  .edit-controller {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .update-controller {
+    display: none;
+  }
+  
